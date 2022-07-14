@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">QR</string>
+    <string name="app_name">Masivo Capital - QR</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_settings">Configuraciones</string>
+    <string name="acercade">Acerca de</string>
+
+    <string name="scan_button_text">Iniciar Escaneo</string>
 </resources>
