@@ -3,6 +3,7 @@
     <string name="action_settings">Configuraciones</string>
     <string name="title_activity_settings">Configuraciones</string>
     <string name="acercade">Acerca de</string>
+    <string name="mensajebienvenida">Bienvenido - Ingrese sus datos para iniciar sesion</string>
 
     <string name="scan_button_text">Iniciar Escaneo</string>
 </resources>
