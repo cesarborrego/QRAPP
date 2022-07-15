@@ -4,6 +4,9 @@
     <string name="title_activity_settings">Configuraciones</string>
     <string name="acercade">Acerca de</string>
     <string name="mensajebienvenida">Bienvenido - Ingrese sus datos para iniciar sesion</string>
+    <string name="label_usuario">Ingrese su nombre de usuario</string>
+    <string name="label_password">Ingrese su contraseña</string>
+    <string name="label_start_session">Acceso</string>
 
     <string name="scan_button_text">Iniciar Escaneo</string>
 </resources>
