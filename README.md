@@ -1,3 +1,2 @@
 # QR_APP
-Pruebas
-Masivo Capital
+Herramienta para la lectura del código QR, en la flota de Masivo Capital
