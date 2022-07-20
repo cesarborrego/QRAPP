@@ -1,7 +1,8 @@
-package com.mc.qr
+package com.mc.qr.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mc.qr.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

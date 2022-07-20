@@ -7,6 +7,9 @@
     <string name="label_usuario">Ingrese su nombre de usuario</string>
     <string name="label_password">Ingrese su contraseña</string>
     <string name="label_start_session">Acceso</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="scan_button_text">Iniciar Scaneo</string>
+    <string name="textview">Información</string>
 
-    <string name="scan_button_text">Iniciar Escaneo</string>
+
 </resources>
