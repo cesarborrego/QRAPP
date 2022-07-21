@@ -2,7 +2,7 @@ package com.mc.qr.api
 
 import com.google.gson.annotations.SerializedName
 
-data class loginResponse(
+data class UserResponse(
     @SerializedName("mensaje") var message:String,
     @SerializedName("id") var id:Int,
     @SerializedName("user") var user:User

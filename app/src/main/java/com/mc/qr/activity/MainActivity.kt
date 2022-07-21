@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.mc.qr.databinding.ActivityMainBinding
 import com.mc.qr.service.APIservice
+import com.mc.qr.api.User
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -30,11 +31,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun login(query: String){
         CoroutineScope(Dispatchers.IO).launch {
-            val call= getRetrofit().create(APIservice::class.java).getLogin("api/login")
-            val usuariologin= call.body()
+            val call= getRetrofit().create(APIservice::class.java).getLogin("api/login").execute()
+            val UserAccesLogin= call.body() as User?
             runOnUiThread{
-                if(call.isSuccessful){
-                    //show Recyclerview
+                if(UserAccesLogin?.enable == true){
+
+
                 }else{
                    showError()
                 }
