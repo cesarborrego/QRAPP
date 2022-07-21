@@ -8,7 +8,7 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
-public class UsuarioApi {
+public class userAPI {
 
     //RUTA DEL CONTROLADOR USUARIO
     String base = "/api/login";
